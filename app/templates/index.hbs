@@ -1,0 +1,20 @@
+<h3>POJO</h3>
+<ol>
+  {{#each-in model.pojo as |key value|}}
+  <li>{{key}} {{value}}</li>
+  {{/each-in}}
+</ol>
+
+<h3>Dot notation key</h3>
+<ol>
+  {{#each-in model.dotNotation as |key value|}}
+  <li>{{key}} {{value}}</li>
+  {{/each-in}}
+</ol>
+
+<h3>Getter</h3>
+<ol>
+  {{#each-in model.getter as |key value|}}
+  <li>{{key}} {{value}}</li>
+  {{/each-in}}
+</ol>
